@@ -4,9 +4,9 @@
 
 export const environment = {
   production: false,
-  apiURLBase: 'http://localhost:8080',
-  clientId: 'my-angular-app',
-  clientSecret: '@321',
+  apiURLBase: 'https://api-prestacao-servico.herokuapp.com',
+  clientId: 'my-api-security',
+  clientSecret: 'admin-api-security',
   obterTokenUrl: '/oauth/token'
 };
 
